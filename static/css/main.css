@@ -39,6 +39,26 @@ input[type="file"] {
     color: #6497be;
 }
 
+.btnLogin-popup {
+    width: 130px;
+    height: 50 px;
+    font-family: "roboto";
+    background:transparent;
+    color: #fff;
+    font-size: 1.1em;
+    transition: all .4s;
+    cursor: pointer;
+    border: 2px solid rgb(156, 164, 172);
+    outline: None;
+    border-radius: 6px;
+    font-weight: 500px;
+    margin-left: 40px;
+}
+.btnLogin-popup:hover{
+    background: #0d3e64;
+    color: #6497be;
+
+}
 /* loader while processing the image */
 .loader {
     border: 8px solid #f3f3f3; /* Light grey */
@@ -53,3 +73,17 @@ input[type="file"] {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+
+
+.wrapper {
+    align-items: center;
+    position: relative;
+    width:400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+

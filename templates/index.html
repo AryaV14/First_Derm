@@ -17,8 +17,9 @@
 /* Modify the background color */ 
           
         .navbar-custom { 
-            background-color: #325380; 
+            background-color:  #325380; 
             height: 75;
+            padding: 9px 40px;
         } 
         /* Modify brand and text color */ 
           
@@ -27,15 +28,17 @@
             color: white; 
             font-family:"roboto";
             font-style: italic;
-            font-size: 30;
-            padding-left: 60;
+            font-size: 34;
+            padding-left: 40;
             font-weight: 500;
         } 
         body, html {
   height: 100%;
 }
-.bg {
-  /* The image used */
+.bg { 
+  justify-content: center;
+  align-items: center;
+    /* The image used*/
   background-image: url("https://t4.ftcdn.net/jpg/05/69/48/97/240_F_569489760_CtiwhJubtF3SXuD8U53QiGvu1RpW49DB.jpg");
 
   /* Full height */
@@ -46,6 +49,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: lighten;
+ 
 }
 
     
@@ -76,8 +80,37 @@ padding-right: 400;
         <a class="navbar-brand" href="#"> 
           First Derm
       </a> 
+      <button type="button" class ="btnLogin-popup">Login</button>
     </nav> 
+    <!-- <div class="wrapper">
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label>
+              <input type="checkbox">Remember me
+            </label>
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-regsiter">
+            <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+          </div>
+        </form>
+      </div>
+    </div> -->
 
+   
     <div class="container">
         <div id="content" style="margin-top:7em">
             <div class="heading">SKIN DISEASE IDENTIFICATON</div>
@@ -100,7 +133,7 @@ padding-right: 400;
                         </div>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict !</button>
+                        <button class="btn btn-primary btn-lg " id="btn-predict">Predict !</button>
                     </div>
                 </div>
             
@@ -115,6 +148,9 @@ padding-right: 400;
     </div>
     </div>
     
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 </body>
 
 <footer>
