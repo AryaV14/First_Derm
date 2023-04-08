@@ -5,6 +5,8 @@ First derm is an AI based project which would help you to identify the name of y
 # Tech Stacks used
 
 Python-ML
+
 Flask
+
 HTML CSS
 
