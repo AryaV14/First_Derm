@@ -20,6 +20,7 @@ input[type="file"] {
     display: none;
 }
 
+/* upload button */
 .upload-label{
     display: inline-block;
     padding: 12px 30px;
@@ -32,11 +33,13 @@ input[type="file"] {
     
 }
 
+
 .upload-label:hover{
     background: #0d3e64;
     color: #6497be;
 }
 
+/* loader while processing the image */
 .loader {
     border: 8px solid #f3f3f3; /* Light grey */
     border-top: 8px solid #325380; /* Blue */
