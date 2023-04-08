@@ -1,6 +1,4 @@
-	photo =FileField(
-		validators=[
-			FileAllowed(photos, 'Only images are allowed'),
-			FileRequired('File field should not be empty')
-		]
-	)
+# routes
+@app.route("/", methods=['GET', 'POST'])
+def main():
+    return render_template("index.html")
